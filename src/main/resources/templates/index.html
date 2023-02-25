@@ -12,14 +12,27 @@
 </head>
 <body>
 <div class="container">
+
   <div class="row">
     <div class="col-md-offset-1 col-md-10">
       <div class="panel">
         <div class="panel-heading">
           <div class="row">
             <div class="col-sm-12 col-xs-12">
+              <nav class="navbar navbar-light bg-dark">
+                <div class="container">
+                  <a class="navbar-brand" href="#">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/0/07/Ala-Too_International_University_Seal.png" height="50" alt="MDB Logo"
+                         loading="lazy" />
+                  </a>
+                  <h4 class="text-center text-white">Here we can make some CRUD operations with our list of Employees</h4>
+
+                </div>
+              </nav>
               <a  th:href="@{http://localhost:8080/new}" class="btn btn-success">Add
-                New Employee</a>            </div>
+                New Employee</a>
+              <!--              <p class="text-right">Right aligned text on all viewport sizes.</p>-->
+            </div>
           </div>
         </div>
         <div class="panel-body table-responsive">
